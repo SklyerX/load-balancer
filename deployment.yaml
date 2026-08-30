@@ -1,0 +1,3 @@
+deployment:
+  port: 8888
+  log_file: ./balancer.log

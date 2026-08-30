@@ -3,9 +3,20 @@
   "module": "src/index.ts",
   "type": "module",
   "devDependencies": {
-    "@types/bun": "latest"
+    "@types/bun": "latest",
+    "@types/http-proxy": "^1.17.17",
+    "@types/jsonwebtoken": "^9.0.10",
+    "@types/node": "^26.1.2",
+    "loadtest": "^8.2.1"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "http-proxy": "^1.18.1",
+    "jsonwebtoken": "^9.0.3",
+    "rotating-file-stream": "^3.2.9",
+    "yaml": "^2.9.0",
+    "zod": "^4.4.3"
   }
 }
